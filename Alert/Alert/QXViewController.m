@@ -26,11 +26,26 @@
     UIAlertView *alertView = [[UIAlertView alloc]
                               initWithTitle:@"Alert"
                               message:@"You've been delivered an alert"
-                              delegate:nil
+                              delegate:self
                               cancelButtonTitle:@"Cancel"
                               otherButtonTitles:nil];
     
+    [alertView setAlertViewStyle:UIAlertViewStylePlainTextInput];
+    
+    UITextField *text = [alertView textFieldAtIndex:0];
+    [text setKeyboardType:UIKeyboardTypePhonePad];
+    
+    // alert styles:
+    // UIAlertViewStylePlainTextInput
+    // UIAlertViewStyleSecureTextInput
+    // UIAlertViewStyleLoginAndPasswordInput
+    
     [alertView show];
+}
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    NSLog(@"%d", buttonIndex);
 }
 
 - (void)didReceiveMemoryWarning

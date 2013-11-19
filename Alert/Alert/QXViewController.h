@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QXViewController : UIViewController
+@interface QXViewController : UIViewController <UIAlertViewDelegate>
 
 @end
