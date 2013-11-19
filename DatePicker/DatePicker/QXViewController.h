@@ -10,4 +10,6 @@
 
 @interface QXViewController : UIViewController
 
+@property (nonatomic, strong) UIDatePicker *datePicker;
+
 @end
