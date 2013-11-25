@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0AF47CCC-651E-4900-81AB-C29281D0A94F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ViewController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>08A4147C-B465-478A-8609-94ECAF67E087</key>
+		<string>https://github.com/liuda101/Cookbook.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ViewController/ViewController.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>08A4147C-B465-478A-8609-94ECAF67E087</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liuda101/Cookbook.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>08A4147C-B465-478A-8609-94ECAF67E087</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>08A4147C-B465-478A-8609-94ECAF67E087</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cookbook</string>
+		</dict>
+	</array>
+</dict>
+</plist>
