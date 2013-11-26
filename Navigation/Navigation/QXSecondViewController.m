@@ -33,6 +33,10 @@
     UIImage *img = [UIImage imageNamed:@"AAA"];
     [imgView setImage:img];
     self.navigationItem.titleView = imgView;
+    
+    UISwitch *switcher = [[UISwitch alloc] init];
+    switcher.on = YES;
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:switcher];
 }
 
 - (void)didReceiveMemoryWarning

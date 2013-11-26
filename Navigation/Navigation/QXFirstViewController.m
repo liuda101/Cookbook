@@ -38,6 +38,10 @@
     self.button.center = self.view.center;
     
     [self.view addSubview:self.button];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Edit" style:UIBarButtonItemStylePlain target:self action:@selector(buttonPressed:)];
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(buttonPressed:)];
 }
 
 - (void)didReceiveMemoryWarning
